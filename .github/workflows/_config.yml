@@ -1,4 +1,29 @@
 ---
 ---
+# Site settings
+title: 'Senior_Research'
+email: garvinfrancois@example.com
+description: >- # This line ignores newlines until a new key
+  Write your awesome site description here. It's used in your
+  document head meta tags and RSS feed.
+baseurl: '/your-repo-name' # The subpath of your site (e.g., /blog). Use "" for a root domain.
+url: 'https://username.github.io' # The base hostname & protocol for your site
 
-theme: jekyll-theme-minimal
+github_username: Gdude04
+
+# Build settings
+markdown: kramdown # Or 'redcarpet', 'commonmark', etc.
+theme: hacker # The default Jekyll theme or a custom gem-based theme
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
