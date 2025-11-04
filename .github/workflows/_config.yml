@@ -2,12 +2,12 @@
 ---
 # Site settings
 title: 'Senior_Research'
-email: garvinfrancois@example.com
+email: garvinfrancois@gmail.com
 description: >- # This line ignores newlines until a new key
   Write your awesome site description here. It's used in your
   document head meta tags and RSS feed.
-baseurl: '/your-repo-name' # The subpath of your site (e.g., /blog). Use "" for a root domain.
-url: 'https://username.github.io' # The base hostname & protocol for your site
+baseurl: '/senior_research' # The subpath of your site (e.g., /blog). Use "" for a root domain.
+url: 'https://Gdude04.github.io' # The base hostname & protocol for your site
 
 github_username: Gdude04
 
